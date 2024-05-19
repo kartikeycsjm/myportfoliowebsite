@@ -32,10 +32,10 @@ const page = () => {
         '/>
         <div className='flex justify-center items-center flex-col
         md:items-start'>
-          <p className='m-5 text-[32px] w-[85%] text-center
+          <p className='m-5 text-[28px] w-[95%] text-center
           md:text-left md:text-[33px]
           sm:text-left sm:text-[30px]
-          '>Hey there! I'm <span className='text-blue-700 text-[35px]
+          '>Hey there! I'm <span className='text-blue-700 text-[33px]
           md:text-[40px]
           sm:text-[38px]
           '>Kartikey Mishra</span>, a final year BTech Computer Science student passionate about web development and Problem Solving, specializing in Nextjs.</p>
@@ -46,7 +46,7 @@ const page = () => {
         </div>
       </div>
       <Image src={cover} className='w-[70%] rounded-lg mt-4' />
-      <div id='prof' className='w-full min-h-screen text-white flex justify-around items-center flex-col border-t-[1px] border-gray-800'>
+      <div id='prof' className='w-full min-h-screen text-white flex justify-around items-center flex-col'>
         <div className='w-[50%] h-[60px] flex justify-around items-center'>
           <Image src={skill} className='w-[40px]' />
           <h3 className='text-[30px]'>Proficiencies</h3>
@@ -70,7 +70,6 @@ const page = () => {
           <Skillimg link={linux} />
         </Skill>
       </div>
-      <div className='w-full h-screen'></div>
     </div>
   )
 }

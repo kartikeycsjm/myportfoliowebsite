@@ -27,11 +27,11 @@ const Header = () => {
                 <Link className='px-2 rounded-[30px] border border-[#000640] hover:border-blue-500 duration-[0.5s]' href={'/insights'}>Insights</Link>
                 
             </div>
-            <Link href={'https://github.com/kartikeycsjm'} id='n' className='px-2 rounded-[30px] border border-[#000640] hover:border-blue-500 duration-[0.5s] text-[15px]
+            {/* <Link href={'https://github.com/kartikeycsjm'} id='n' className='px-2 rounded-[30px] border border-[#000640] hover:border-blue-500 duration-[0.5s] text-[15px]
             md:text-[30px]
             sm:text-[25px]
             '
-            >&lt;Kartikey/&gt;</Link>
+            >&lt;Kartikey/&gt;</Link> */}
         </div>
     )
 }
