@@ -5,7 +5,7 @@ import home from '@/public/icons/home.png'
 import contact from '@/public/icons/contact.png'
 const Header = () => {
     return (
-        <div className='w-[98%] border text-white h-[60px] bg-[#000650] rounded-[50px] flex justify-around items-center sticky top-[2px]
+        <div className='w-[98%] text-white h-[60px] bg-[#000650] rounded-[50px] flex justify-around items-center sticky top-[2px]
         md:top-2 md:w-[90%]
         sm:w-[90%]
         '>
