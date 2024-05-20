@@ -32,10 +32,10 @@ const page = () => {
         '/>
         <div className='flex justify-center items-center flex-col
         md:items-start'>
-          <p className='m-5 text-[28px] w-[95%] text-center
+          <p className='m-5 text-[25px] w-[95%] text-center
           md:text-left md:text-[33px]
           sm:text-left sm:text-[30px]
-          '>Hey there! I'm <span className='text-blue-700 text-[33px]
+          '>Hey there! I'm <span className='text-blue-700 text-[30px]
           md:text-[40px]
           sm:text-[38px]
           '>Kartikey Mishra</span>, a final year BTech Computer Science student passionate about web development and Problem Solving, specializing in Nextjs.</p>
@@ -45,30 +45,36 @@ const page = () => {
           '>Download Resume</button>
         </div>
       </div>
-      <Image src={cover} className='w-[70%] rounded-lg mt-4' />
-      <div id='prof' className='w-full min-h-screen text-white flex justify-around items-center flex-col'>
-        <div className='w-[50%] h-[60px] flex justify-around items-center'>
-          <Image src={skill} className='w-[40px]' />
-          <h3 className='text-[30px]'>Proficiencies</h3>
+      <div className='w-[95%] min-h-screen flex justify-between items-center flex-col
+        md:w-[90%] md:flex-row
+        '>
+        <Image src={cover} className='w-[70%] rounded-lg mt-4
+          md:w-[50%]'/>
+        <div id='prof' className='w-[100%] min-h-screen text-white flex justify-around items-center flex-col'>
+          <div className='w-[50%] h-[60px] flex justify-around items-center
+          md:w-[250px]'>
+            <Image src={skill} className='w-[40px]' />
+            <h3 className='text-[30px]'>Proficiencies</h3>
+          </div>
+          <Skill name={'Programming Languages'}>
+            <Skillimg link={js} />
+            <Skillimg link={java} />
+          </Skill>
+          <Skill name={'Basic Website Development Tools, Frameworks and Libraries'}>
+            <Skillimg link={html} />
+            <Skillimg link={css} />
+            <Skillimg link={react} />
+            <Skillimg link={nextjs} />
+            <Skillimg link={tailwind} />
+            <Skillimg link={sass} />
+          </Skill>
+          <Skill name={'Databases and Other Skills'}>
+            <Skillimg link={mongo} />
+            <Skillimg link={mysql} />
+            <Skillimg link={github} />
+            <Skillimg link={linux} />
+          </Skill>
         </div>
-        <Skill name={'Programming Languages'}>
-          <Skillimg link={js} />
-          <Skillimg link={java} />
-        </Skill>
-        <Skill name={'Basic Website Development Tools, Frameworks and Libraries'}>
-          <Skillimg link={html} />
-          <Skillimg link={css} />
-          <Skillimg link={react} />
-          <Skillimg link={nextjs} />
-          <Skillimg link={tailwind} />
-          <Skillimg link={sass} />
-        </Skill>
-        <Skill name={'Databases and Other Skills'}>
-          <Skillimg link={mongo} />
-          <Skillimg link={mysql} />
-          <Skillimg link={github} />
-          <Skillimg link={linux} />
-        </Skill>
       </div>
     </div>
   )
