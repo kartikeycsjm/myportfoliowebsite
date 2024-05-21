@@ -16,41 +16,46 @@ const Header = () => {
             md:text-[18px]
             sm:text-[15px]
             '>
-                <Link className='flex justify-center items-center flex-col p-2 rounded-[30px] ' href={'/'}>
+                <Link className='w-[70px] h-[60px] flex justify-center items-center flex-col p-2 rounded-[30px] ' href={'/'}>
                     <Image src={home} className='w-[25px]
                     md:w-[45px]
                     sm:w-[35px]
                     '/>
-                    <h6 className='text-[9px] hover:text-blue-300'>Home</h6>
+                    <h6 className='text-[9px] hover:text-blue-300 hover:text-[10px] duration-100
+                    md:text-[15px] md:hover:text-[17px]'>Home</h6>
                 </Link>
-                <Link className='flex justify-center items-center flex-col p-2 rounded-[30px] ' href={'/'}>
+                <Link className='w-[70px] h-[60px] flex justify-center items-center flex-col p-2 rounded-[30px] ' href={'/proficiencies'}>
                     <Image src={skill} className='w-[25px]
                     md:w-[45px]
                     sm:w-[35px]
                     '/>
-                    <h6 className='text-[9px] hover:text-blue-300'>Proficiencies</h6>
+                    <h6 className='text-[9px] hover:text-blue-300 hover:text-[10px] duration-100
+                    md:text-[15px] md:hover:text-[17px]'>Proficiencies</h6>
                 </Link>
-                <Link className='flex justify-center items-center flex-col p-2 rounded-[30px] ' href={'/'}>
+                <Link className='w-[70px] h-[60px] flex justify-center items-center flex-col p-2 rounded-[30px] ' href={'/portfolio'}>
                     <Image src={portfolio} className='w-[25px]
                     md:w-[45px]
                     sm:w-[35px]
                     '/>
-                    <h6 className='text-[9px] hover:text-blue-300'>My works</h6>
+                    <h6 className='text-[9px] hover:text-blue-300 hover:text-[10px] duration-100
+                    md:text-[15px] md:hover:text-[17px]'>My works</h6>
                 </Link>
 
-                <Link className='flex justify-center items-center flex-col p-2 rounded-[30px] ' href={'/'}>
+                <Link className='w-[70px] h-[60px] flex justify-center items-center flex-col p-2 rounded-[30px] ' href={'/insights'}>
                     <Image src={insights} className='w-[25px]
                     md:w-[45px]
                     sm:w-[35px]
                     '/>
-                    <h6 className='text-[9px] hover:text-#f16-20075]'>Insights</h6>
+                    <h6 className='text-[9px] hover:text-blue-300 hover:text-[10px] duration-100
+                    md:text-[15px] md:hover:text-[17px]'>Insights</h6>
                 </Link>
-                <Link className='flex justify-center items-center flex-col p-2 rounded-[30px] ' href={'/'}>
+                <Link className='w-[70px] h-[60px] flex justify-center items-center flex-col p-2 rounded-[30px] ' href={'/contact'}>
                     <Image src={contact} className='w-[25px]
                     md:w-[45px]
                     sm:w-[35px]
                     '/>
-                    <h6 className='text-[9px] hover:text-blue-300'>Contact</h6>
+                    <h6 className='text-[9px] hover:text-blue-300 hover:text-[10px] duration-100
+                    md:text-[15px] md:hover:text-[17px]'>Contact</h6>
                 </Link>
             </div>
         </div>
