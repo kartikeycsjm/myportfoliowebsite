@@ -3,6 +3,9 @@ import Link from 'next/link'
 import Image from 'next/image'
 import home from '@/public/icons/home.png'
 import contact from '@/public/icons/contact.png'
+import skill from '@/public/icons/skill.png'
+import insights from '@/public/icons/insights.png'
+import portfolio from '@/public/icons/portfolio.png'
 const Header = () => {
     return (
         <div className='w-[98%] text-white h-[60px] bg-[#000650] rounded-[50px] flex justify-around items-center sticky top-[2px]
@@ -13,25 +16,43 @@ const Header = () => {
             md:text-[18px]
             sm:text-[15px]
             '>
-                <Link className='p-2 rounded-[30px] border border-[#000640] hover:border-blue-500 duration-[0.5s]' href={'/'}>
-                    <Image src={home} className='w-[30px]
+                <Link className='flex justify-center items-center flex-col p-2 rounded-[30px] ' href={'/'}>
+                    <Image src={home} className='w-[25px]
                     md:w-[45px]
                     sm:w-[35px]
                     '/>
+                    <h6 className='text-[9px] hover:text-blue-300'>Home</h6>
                 </Link>
-                <Link className='px-2 rounded-[30px] border border-[#000640] hover:border-blue-500 duration-[0.5s]' href={'#reachout'}>
-                    Contact me
+                <Link className='flex justify-center items-center flex-col p-2 rounded-[30px] ' href={'/'}>
+                    <Image src={skill} className='w-[25px]
+                    md:w-[45px]
+                    sm:w-[35px]
+                    '/>
+                    <h6 className='text-[9px] hover:text-blue-300'>Proficiencies</h6>
                 </Link>
-                <a className='px-2 rounded-[30px] border border-[#000640] hover:border-blue-500 duration-[0.5s]' href={'/#prof'}>Proficiencies</a>
-                <Link className='px-2 rounded-[30px] border border-[#000640] hover:border-blue-500 duration-[0.5s]' href={'/portfolio'}>Portfolio</Link>
-                <Link className='px-2 rounded-[30px] border border-[#000640] hover:border-blue-500 duration-[0.5s]' href={'/insights'}>Insights</Link>
-                
+                <Link className='flex justify-center items-center flex-col p-2 rounded-[30px] ' href={'/'}>
+                    <Image src={portfolio} className='w-[25px]
+                    md:w-[45px]
+                    sm:w-[35px]
+                    '/>
+                    <h6 className='text-[9px] hover:text-blue-300'>My works</h6>
+                </Link>
+
+                <Link className='flex justify-center items-center flex-col p-2 rounded-[30px] ' href={'/'}>
+                    <Image src={insights} className='w-[25px]
+                    md:w-[45px]
+                    sm:w-[35px]
+                    '/>
+                    <h6 className='text-[9px] hover:text-#f16-20075]'>Insights</h6>
+                </Link>
+                <Link className='flex justify-center items-center flex-col p-2 rounded-[30px] ' href={'/'}>
+                    <Image src={contact} className='w-[25px]
+                    md:w-[45px]
+                    sm:w-[35px]
+                    '/>
+                    <h6 className='text-[9px] hover:text-blue-300'>Contact</h6>
+                </Link>
             </div>
-            {/* <Link href={'https://github.com/kartikeycsjm'} id='n' className='px-2 rounded-[30px] border border-[#000640] hover:border-blue-500 duration-[0.5s] text-[11px]
-            md:text-[30px]
-            sm:text-[25px]
-            '
-            >&lt;Kartikey/&gt;</Link> */}
         </div>
     )
 }
