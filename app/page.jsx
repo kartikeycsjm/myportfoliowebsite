@@ -14,7 +14,7 @@ const page = () => {
         '/>
         <div className='flex justify-center items-center flex-col
         md:items-start'>
-          <p className='m-5 text-[25px] w-[80%] text-justify          
+          <p className='m-5 text-[23px] w-[80%] text-justify          
           md:text-left md:text-[33px]
           sm:text-left sm:text-[30px]
           '>Hey there! I'm <span className='text-blue-700 text-[30px]
