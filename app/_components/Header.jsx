@@ -9,7 +9,7 @@ import portfolio from '@/public/icons/portfolio.png'
 const Header = () => {
     return (
         <div className='w-[98%] text-white h-[60px] bg-[#000650] rounded-[50px] flex justify-around items-center sticky top-[2px]
-        md:top-2 md:w-[90%] md:h-[70px]
+        md:top-1 md:w-[90%] md:h-[70px]
         sm:w-[95%]
         '>
             <div id="links" className='w-[100%] text-white text-[11px] flex justify-around items-center

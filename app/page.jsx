@@ -17,13 +17,14 @@ const page = () => {
         <div className='w-full h-[50%] flex justify-around items-center flex-col
         md:items-start
         sm:items-start'>
-          <p className='text-[23px] w-[80%] text-justify          
+          <p className='text-[23px] w-[80%]          
           md:text-[30px] md:text-left
           sm:text-[26px] sm:text-left
-          '>Hey there! I'm <span className='text-blue-700 text-[30px]
+          '>Hey there! I'm 
+          <span className='text-blue-700 text-[26px] font-cursive
           md:text-[40px]
           sm:text-[38px] 
-          '>Kartikey Mishra</span>, a final year BTech Computer Science student passionate about web development and Problem Solving, specializing in Nextjs.</p>
+          '> Kartikey Mishra</span>, a final year BTech Computer Science student passionate about web development and Problem Solving, specializing in Nextjs.</p>
           <button className='px-2 py-1 border-[1.4px] border-blue-700 rounded-full duration-200 hover:bg-[blue] hover:rounded-sm
           md:text-[30px] md:px-5
           sm:text-[26px] sm:px-3
