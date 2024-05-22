@@ -42,7 +42,7 @@ const page = () => {
             type={'proficiencies'}
             name={`I'm currently Learning`}
             image={nextjs}
-            text={'Next.JS'}
+            text={'Next.JS (A JavaScript Fullstack framework)'}
             ltext={'know more about Next.JS'}
             llink={`https://nextjs.org/`}
             all={`/proficiencies`}
