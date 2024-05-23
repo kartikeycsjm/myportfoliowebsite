@@ -27,7 +27,7 @@ const page = () => {
           <div className='w-[270px] h-[100px] flex justify-around
           md:items-center
           sm:items-center'>
-            <SocialIcon href="https://github.com/kartikeycsjm" url='github.com' style={{ height: 45, width: 45 }} bgColor="#000660" fgColor='white' />
+            <SocialIcon href="https://github.com/kartikeycsjm" url='github.com' style={{ height: 45, width: 45, zIndex:10 }} bgColor="#000660" fgColor='white' />
             <SocialIcon href="https://linkedin.com/in/kartikey-mishra-637a442b5" url='linkedin.com' style={{ height: 45, width: 45 }} bgColor="#000660" fgColor='white' />
             <SocialIcon href="https://x.com/myself_kartik_" url='twitter.com' style={{ height: 45, width: 45 }} bgColor="#000660" fgColor='white' />
             <SocialIcon href="https://instagram.com/myselfkartikey" url='instagram.com' style={{ height: 45, width: 45 }} bgColor="#000660" fgColor='white' />
