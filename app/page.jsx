@@ -7,7 +7,7 @@ import { SocialIcon } from 'react-social-icons'
 const page = () => {
   return (
     <div className='w-full min-h-screen flex justify-around items-center flex-col'>
-      <div id="first" className='text-white w-full h-[85vh] border flex justify-between items-center flex-col
+      <div id="first" className='text-white w-full h-[85vh] flex justify-between items-center flex-col
         md:flex-row-reverse md:w-[90%]
         sm:w-[95%] sm:flex-row-reverse
       '>
