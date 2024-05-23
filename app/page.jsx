@@ -19,11 +19,19 @@ const page = () => {
           md:w-[250px]
           sm:w-[230px]
         '/>
-          <SocialIcon href="https://github.com/kartikeycsjm" url='github.com' style={{ height: 50, width: 50 }} bgColor="#000660" fgColor='white' />
+
         </div>
-        <div className='w-[90%] h-[50%] flex justify-center items-center flex-col
-        md:items-start md:h-[90%] md:w-[60%]
-        sm:items-start sm:h-[90%] sm:w-[50%]'>
+        <div className='w-[90%] h-[70%] flex justify-around items-center flex-col
+        md:items-start md:h-[70%] md:w-[60%]
+        sm:items-start sm:h-[70%] sm:w-[50%]'>
+          <div className='w-[270px] h-[100px] flex justify-around
+          md:items-center
+          sm:items-center'>
+            <SocialIcon href="https://github.com/kartikeycsjm" url='github.com' style={{ height: 45, width: 45 }} bgColor="#000660" fgColor='white' />
+            <SocialIcon href="https://linkedin.com/in/kartikey-mishra-637a442b5" url='linkedin.com' style={{ height: 45, width: 45 }} bgColor="#000660" fgColor='white' />
+            <SocialIcon href="https://x.com/myself_kartik_" url='twitter.com' style={{ height: 45, width: 45 }} bgColor="#000660" fgColor='white' />
+            <SocialIcon href="https://instagram.com/myselfkartikey" url='instagram.com' style={{ height: 45, width: 45 }} bgColor="#000660" fgColor='white' />
+          </div>
           <p className=' text-xl p-4        
           md:text-3xl md:text-left
           sm:text-2xl sm:text-left
