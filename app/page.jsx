@@ -3,31 +3,38 @@ import Image from 'next/image'
 import profile from '@/public/kartik.png'
 import Recent from './_components/Recent'
 import nextjs from '@/public/skillsimages/nextjs.png'
+import { SocialIcon } from 'react-social-icons'
 const page = () => {
   return (
     <div className='w-full min-h-screen flex justify-around items-center flex-col'>
-      <div id="first" className='text-white w-full h-[90vh] flex justify-around items-center flex-col
+      <div id="first" className='text-white w-full h-[90vh] flex justify-between items-center flex-col
       md:flex-row-reverse md:w-[90%]
       sm:w-[95%] sm:flex-row-reverse
       '>
-        <Image src={profile} className='m-5 w-[200px] rounded-full
-        md:w-[250px]
-        sm:w-[240px]
+        <div className='w-[350px] h-[300px] flex justify-around items-center flex-col
+        md:w-[500px] md:justify-center md:h-[90%]
+        sm:h-[90%] sm:justify-center
+        '>
+          <Image src={profile} className='m-5 w-[200px] rounded-full
+          md:w-[250px]
+          sm:w-[230px]
         '/>
-        <div className='w-full h-[50%] flex justify-around items-center flex-col
-        md:items-start
-        sm:items-start'>
-          <p className='text-[23px] w-[80%]          
-          md:text-[30px] md:text-left
-          sm:text-[26px] sm:text-left
-          '>Hey there! I'm 
-          <span className='text-blue-700 text-[26px] font-cursive
-          md:text-[40px]
-          sm:text-[38px] 
-          '> Kartikey Mishra</span>, a final year BTech Computer Science student passionate about web development and Problem Solving, specializing in Nextjs.</p>
-          <button className='px-2 py-1 border-[1.4px] border-blue-700 rounded-full duration-200 hover:bg-[blue] hover:rounded-sm
-          md:text-[30px] md:px-5
-          sm:text-[26px] sm:px-3
+          <SocialIcon href="https://github.com/kartikeycsjm" url='github.com' style={{ height: 50, width: 50 }} bgColor="#000660" fgColor='white' />
+        </div>
+        <div className='w-[90%] h-[50%] flex justify-center items-center flex-col
+        md:items-start md:h-[90%] md:w-[60%]
+        sm:items-start sm:h-[90%] sm:w-[50%]'>
+          <p className=' text-xl p-4        
+          md:text-3xl md:text-left
+          sm:text-2xl sm:text-left
+          '>Hey there! I'm
+            <span className='text-blue-700 text-2xl font-cursive
+          md:text-4xl
+          sm:text-3xl
+          '> Kartikey Mishra</span>, a final year B.Tech. Computer Science student, passionate about web development and Problem Solving, specializing in Nextjs.</p>
+          <button className='text-lg px-3 py-2 m-5 border-[1.4px] border-blue-700 rounded duration-200 hover:bg-[blue] hover:rounded-sm
+          md:text-3xl md:px-5
+          sm:text-2xl sm:px-3
           '>Download Resume</button>
         </div>
       </div>
@@ -56,7 +63,6 @@ const page = () => {
             all={`/insights`}
           />
         </div>
-
       </div>
     </div>
   )
