@@ -7,9 +7,9 @@ import { SocialIcon } from 'react-social-icons'
 const page = () => {
   return (
     <div className='w-full min-h-screen flex justify-around items-center flex-col'>
-      <div id="first" className='text-white w-full h-[90vh] flex justify-between items-center flex-col
-      md:flex-row-reverse md:w-[90%]
-      sm:w-[95%] sm:flex-row-reverse
+      <div id="first" className='text-white w-full h-[85vh] border flex justify-between items-center flex-col
+        md:flex-row-reverse md:w-[90%]
+        sm:w-[95%] sm:flex-row-reverse
       '>
         <div className='w-[350px] h-[300px] flex justify-around items-center flex-col
         md:w-[500px] md:justify-center md:h-[90%]
@@ -19,7 +19,6 @@ const page = () => {
           md:w-[250px]
           sm:w-[230px]
         '/>
-
         </div>
         <div className='w-[90%] h-[70%] flex justify-around items-center flex-col
         md:items-start md:h-[70%] md:w-[60%]
