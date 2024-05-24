@@ -31,12 +31,12 @@ const Header = () => {
                     clicked ?
                         <Image
                             onClick={() => setClicked(!clicked)} src={cross}
-                            className='w-[42px] cursor-pointer'
+                            className='w-[35px] cursor-pointer'
                         />
                         :
                         <Image
                             onClick={() => setClicked(!clicked)} src={more}
-                            className='w-[42px] cursor-pointer'
+                            className='w-[35px] cursor-pointer'
                         />
                 }
             </div>
