@@ -12,6 +12,7 @@ const page = () => {
         md:flex-row-reverse md:w-[90%]
         sm:w-[95%] sm:flex-row-reverse
       '>
+        
         <div className='w-[350px] h-[300px] flex justify-around items-center flex-col
         md:w-[500px] md:justify-center md:h-[90%]
         sm:h-[90%] sm:justify-center
