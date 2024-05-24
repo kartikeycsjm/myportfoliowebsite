@@ -1,13 +1,10 @@
 const nodemailer = require('nodemailer');
 const transporter = nodemailer.createTransport({
-  host: 'smtp.gmail.com',
-  port: 465,
-  secure: true,
+  service:'gmail',
   auth: {
-    user: 'process.env.EMAIL',
-    pass: process.env.PASS,
+    user: process.env.EMAIL,
+    pass: process.env.PASSWORD,
   },
-  debug: true,
 });
 transporter.verify(function (error, success) {
   if (error) {
@@ -17,4 +14,4 @@ transporter.verify(function (error, success) {
   }
 });
 
-module.exports = transporter;
+export default transporter;
