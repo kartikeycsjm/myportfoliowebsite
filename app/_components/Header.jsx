@@ -18,7 +18,7 @@ const Header = () => {
             '>
                 <Link className='w-[70px] h-[60px] flex justify-center items-center flex-col p-2 rounded-[30px]
                 md:w-[100px] md:h-[70px] ' href={'/'}>
-                    <Image src={home} className='w-[25px]
+                    <Image alt='header' src={home} className='w-[25px]
                     md:w-[45px]
                     sm:w-[35px]
                     '/>
@@ -27,7 +27,7 @@ const Header = () => {
                 </Link>
                 <Link className='w-[70px] h-[60px] flex justify-center items-center flex-col p-2 rounded-[30px]
                 md:w-[100px] md:h-[70px] ' href={'/proficiencies'}>
-                    <Image src={skill} className='w-[25px]
+                    <Image alt='header' src={skill} className='w-[25px]
                     md:w-[45px]
                     sm:w-[35px]
                     '/>
@@ -36,7 +36,7 @@ const Header = () => {
                 </Link>
                 <Link className='w-[70px] h-[60px] flex justify-center items-center flex-col p-2 rounded-[30px]
                 md:w-[100px] md:h-[70px] ' href={'/portfolio'}>
-                    <Image src={portfolio} className='w-[25px]
+                    <Image alt='header' src={portfolio} className='w-[25px]
                     md:w-[45px]
                     sm:w-[35px]
                     '/>
@@ -46,7 +46,7 @@ const Header = () => {
 
                 <Link className='w-[70px] h-[60px] flex justify-center items-center flex-col p-2 rounded-[30px]
                 md:w-[100px] md:h-[70px] ' href={'/insights'}>
-                    <Image src={insights} className='w-[25px]
+                    <Image alt='header' src={insights} className='w-[25px]
                     md:w-[45px]
                     sm:w-[35px]
                     '/>
@@ -54,8 +54,8 @@ const Header = () => {
                     md:text-[14px] md:hover:text-[17px]'>Insights</h6>
                 </Link>
                 <Link className='w-[70px] h-[60px] flex justify-center items-center flex-col p-2 rounded-[30px]
-                md:w-[100px] md:h-[70px] ' href={'/contact'}>
-                    <Image src={contact} className='w-[25px]
+                md:w-[100px] md:h-[70px] ' href={'#contact'}>
+                    <Image alt='header' src={contact} className='w-[25px]
                     md:w-[45px]
                     sm:w-[35px]
                     '/>

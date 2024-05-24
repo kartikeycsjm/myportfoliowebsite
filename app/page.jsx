@@ -3,6 +3,7 @@ import Image from 'next/image'
 import profile from '@/public/kartik.png'
 import Recent from './_components/Recent'
 import nextjs from '@/public/skillsimages/nextjs.png'
+import Contact from '@/app/_components/Contact'
 import { SocialIcon } from 'react-social-icons'
 const page = () => {
   return (
@@ -15,7 +16,7 @@ const page = () => {
         md:w-[500px] md:justify-center md:h-[90%]
         sm:h-[90%] sm:justify-center
         '>
-          <Image src={profile} className='m-5 w-[200px] rounded-full
+          <Image src={profile} alt='Kartikey Mishra' className='m-5 w-[200px] rounded-full
           md:w-[250px]
           sm:w-[230px]
         '/>
@@ -26,7 +27,7 @@ const page = () => {
           <div className='w-[270px] h-[100px] flex justify-around
           md:items-center
           sm:items-center'>
-            <SocialIcon href="https://github.com/kartikeycsjm" url='github.com' style={{ height: 45, width: 45, zIndex:10 }} bgColor="#000660" fgColor='white' />
+            <SocialIcon href="https://github.com/kartikeycsjm" url='github.com' style={{ height: 45, width: 45, zIndex: 10 }} bgColor="#000660" fgColor='white' />
             <SocialIcon href="https://linkedin.com/in/kartikey-mishra-637a442b5" url='linkedin.com' style={{ height: 45, width: 45 }} bgColor="#000660" fgColor='white' />
             <SocialIcon href="https://x.com/myself_kartik_" url='twitter.com' style={{ height: 45, width: 45 }} bgColor="#000660" fgColor='white' />
             <SocialIcon href="https://instagram.com/myselfkartikey" url='instagram.com' style={{ height: 45, width: 45 }} bgColor="#000660" fgColor='white' />
@@ -45,11 +46,11 @@ const page = () => {
           '>Download Resume</button>
         </div>
       </div>
-      <div className='border-t border-gray-700 w-full min-h-[80vh] flex justify-around items-center flex-col
+      <div className=' border-y-2 border-gray-900 w-full min-h-[80vh] flex justify-around items-center flex-col
       md:w-[90%] md:min-h-[60vh]
       '>
         <h1 className='text-white text-[30px]
-        md:text-[40px]'>Things Going on</h1>
+        md:text-[40px]'>What's new!</h1>
         <div className='w-full min-h-[70vh] flex justify-around items-center flex-col
       md:flex-row md:w-[90%] md:min-h-[55vh]'>
           <Recent
@@ -71,6 +72,7 @@ const page = () => {
           />
         </div>
       </div>
+      <Contact />
     </div>
   )
 }

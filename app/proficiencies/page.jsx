@@ -24,14 +24,14 @@ const page = () => {
             <div id='prof' className='w-[100%] min-h-screen text-white flex justify-around items-center flex-col'>
                 <div className='h-[60px] flex justify-around items-center
                 md:w-[250px]'>
-                    <Image src={skill} className='w-[40px]' />
+                    <Image src={skill} alt='skill' className='w-[40px]' />
                     <h3 className='text-[30px]'>Proficiencies</h3>
                 </div>
                 <div className='w-full min-h-screen flex justify-around items-center flex-col
                 md:flex-row md:justify-between'>
                     <div className='flex justify-center items-center
                     md:w-[50%]'>
-                        <Image src={cover} className='w-[70%] rounded-lg mt-4
+                        <Image src={cover} alt='my image' className='w-[70%] rounded-lg mt-4
                         md:w-[80%]'/>
                     </div>
                     <div className='w-[90%] min-h-screen
