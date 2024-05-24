@@ -27,17 +27,17 @@ const Contact = () => {
         placeholder='Email id'
         value={email}
         onChange={e => setEmail(e.target.value)}
-        className='rounded m-5 w-[350px] h-9 p-5 md:w-[400px]'
+        className='rounded m-5 w-[300px] h-9 p-5 md:w-[400px]'
       />
       <textarea
         placeholder='Message'
         value={message}
         onChange={e => setMessage(e.target.value)}
-        className='rounded m-5 p-5 resize-none w-[350px] h-36 md:w-[400px]'
+        className='rounded m-5 p-5 resize-none w-[300px] h-36 md:w-[400px]'
       ></textarea>
       <button
         onClick={sendMessage}
-        className={`rounded m-5 p-2 w-[350px] border border-blue-700 text-white md:w-[400px] ${loading ? 'opacity-50 cursor-not-allowed' : ''}`}
+        className={`rounded m-5 p-2 w-[300px] border border-blue-700 text-white md:w-[400px] ${loading ? 'opacity-50 cursor-not-allowed' : ''}`}
         disabled={loading}
       >
         {loading ? 'Sending...' : msg ? msg : 'Send message'}
