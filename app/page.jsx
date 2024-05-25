@@ -16,7 +16,7 @@ const page = () => {
         md:w-[500px] md:justify-center md:h-[90%]
         sm:h-[90%] sm:justify-center
         '>
-          <Image src={profile} alt='Kartikey Mishra' className='m-5 w-[200px] rounded-full border-[5px] border-[#000680] duration-200 hover:border-[#000650]
+          <Image src={profile} alt='Kartikey Mishra' className='m-5 w-[200px] rounded-full border-[4px] border-[#000680] duration-200 hover:border-[#000650]
           md:w-[250px]
           sm:w-[230px]
         '/>
