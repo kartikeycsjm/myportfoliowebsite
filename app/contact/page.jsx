@@ -20,7 +20,7 @@ const Contact = () => {
     }
   }
   return (
-    <div className='w-full h-[85vh] flex justify-center'>
+    <div className='w-full h-[80vh] flex justify-center'>
       <div id='contact' className='w-full h-[60vh] flex justify-center items-center flex-col'>
         <h1 className='text-white text-[30px] md:text-[40px]'>Message Me</h1>
         <input
