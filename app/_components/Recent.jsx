@@ -4,11 +4,11 @@ import Link from 'next/link'
 import arrow from '@/public/icons/arrow.png'
 const Recent = ({ type, name, text, image, ltext, llink, all }) => {
     return (
-        <div className='m-5 text-white bg-[#000635] w-[80%] min-h-[130px] rounded-lg flex justify-around flex-col
-        md:w-[500px]
-        sm:w-[500px]'>
+        <div className='m-5 text-white bg-[#000635] w-[90%] min-h-[130px] rounded-lg flex justify-around flex-col
+        md:w-[90%]
+        sm:w-[70%]'>
             <h3 className='text-[20px] font-bold pl-4'>{name}</h3>
-            <Image src={image} alt='skill' className='p-3 w-[90px]' />
+            <Image src={image} alt='skill' className='p-5 w-[100px]' />
             <p className='px-5'>{text}</p>
             <Link className='px-5 text-blue-800 underline underline-offset-1' href={`${llink}`}>{ltext}</Link>
             <div className='w-full flex justify-end items-center relative bottom-0'>

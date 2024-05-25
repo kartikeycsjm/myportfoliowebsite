@@ -15,48 +15,36 @@ import skill from '@/public/icons/skill.png'
 import github from '@/public/skillsimages/github.png'
 import linux from '@/public/skillsimages/linux.png'
 import sass from '@/public/skillsimages/sass.png'
-import cover from '@/public/c.jpg'
 const page = () => {
     return (
-        <div className='w-[95%] min-h-screen flex justify-between items-center flex-col
-        md:w-[90%] md:flex-row
+        <div className='w-[90%] text-white min-h-screen flex justify-center items-center flex-col
+        md:w-[90%]
         '>
-            <div id='prof' className='w-[100%] min-h-screen text-white flex justify-around items-center flex-col'>
-                <div className='h-[60px] flex justify-around items-center
-                md:w-[250px]'>
-                    <Image src={skill} alt='skill' className='w-[40px]' />
-                    <h3 className='text-[30px]'>Proficiencies</h3>
-                </div>
-                <div className='w-full min-h-screen flex justify-around items-center flex-col
-                md:flex-row md:justify-between'>
-                    <div className='flex justify-center items-center
-                    md:w-[50%]'>
-                        <Image src={cover} alt='my image' className='w-[70%] rounded-lg mt-4
-                        md:w-[80%]'/>
-                    </div>
-                    <div className='w-[90%] min-h-screen
-                    md:w-[40%] md:min-h-screen'>
-                        <Skill name={'Programming Languages'}>
-                            <Skillimg link={js} />
-                            <Skillimg link={java} />
-                        </Skill>
-                        <Skill name={'Basic Website Development Tools, Frameworks and Libraries'}>
-                            <Skillimg link={html} />
-                            <Skillimg link={css} />
-                            <Skillimg link={react} />
-                            <Skillimg link={nextjs} />
-                            <Skillimg link={tailwind} />
-                            <Skillimg link={sass} />
-                        </Skill>
-                        <Skill name={'Databases and Other Skills'}>
-                            <Skillimg link={mongo} />
-                            <Skillimg link={mysql} />
-                            <Skillimg link={github} />
-                            <Skillimg link={linux} />
-                        </Skill>
-                    </div>
-                </div>
+            <div className='h-[60px] w-[250px] flex justify-around items-center'>
+                <Image src={skill} alt='skill' className='w-[40px]' />
+                <h3 className='text-[30px]'>Proficiencies</h3>
             </div>
+            <div className='w-full m-5 min-h-[70vh] border-[1px] border-gray-800 rounded-lg flex justify-around items-center flex-col
+                md:flex-row md:justify-between'>
+                    <Skill name={'Programming Languages'}>
+                        <Skillimg link={js} />
+                        <Skillimg link={java} />
+                    </Skill>
+                    <Skill name={'Basic Website Development Tools, Frameworks and Libraries'}>
+                        <Skillimg link={html} />
+                        <Skillimg link={css} />
+                        <Skillimg link={react} />
+                        <Skillimg link={nextjs} />
+                        <Skillimg link={tailwind} />
+                        <Skillimg link={sass} />
+                    </Skill>
+                    <Skill name={'Databases and Other Skills'}>
+                        <Skillimg link={mongo} />
+                        <Skillimg link={mysql} />
+                        <Skillimg link={github} />
+                        <Skillimg link={linux} />
+                    </Skill>
+                </div>
         </div>
     )
 }
