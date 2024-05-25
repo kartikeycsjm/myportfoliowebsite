@@ -16,7 +16,7 @@ const page = () => {
         md:w-[500px] md:justify-center md:h-[90%]
         sm:h-[90%] sm:justify-center
         '>
-          <Image src={profile} alt='Kartikey Mishra' className='m-5 w-[200px] rounded-full border-[4px] border-[#000680] duration-200 hover:border-[#000650]
+          <Image src={profile} alt='Kartikey Mishra' className='m-5 w-[200px] rounded-full border-[1px] border-[#cecccc] duration-[1s] hover:border-[#000680] hover:rounded-xl
           md:w-[250px]
           sm:w-[230px]
         '/>
@@ -27,10 +27,10 @@ const page = () => {
           <div className='w-[270px] h-[100px] flex justify-around
           md:items-center
           sm:items-center'>
-            <SocialIcon href="https://github.com/kartikeycsjm" url='github.com' style={{ height: 45, width: 45, zIndex: 10 }} bgColor="#000660" fgColor='white' />
-            <SocialIcon href="https://linkedin.com/in/kartikey-mishra-637a442b5" url='linkedin.com' style={{ height: 45, width: 45 }} bgColor="#000660" fgColor='white' />
-            <SocialIcon href="https://x.com/myself_kartik_" url='twitter.com' style={{ height: 45, width: 45 }} bgColor="#000660" fgColor='white' />
-            <SocialIcon href="https://instagram.com/myselfkartikey" url='instagram.com' style={{ height: 45, width: 45 }} bgColor="#000660" fgColor='white' />
+            <SocialIcon href="https://github.com/kartikeycsjm" url='github.com' style={{ height: 45, width: 45, zIndex: 10 }} bgColor="#000640" fgColor='white' />
+            <SocialIcon href="https://linkedin.com/in/kartikey-mishra-637a442b5" url='linkedin.com' style={{ height: 45, width: 45 }} bgColor="#000640" fgColor='white' />
+            <SocialIcon href="https://x.com/myself_kartik_" url='twitter.com' style={{ height: 45, width: 45 }} bgColor="#000640" fgColor='white' />
+            <SocialIcon href="https://instagram.com/myselfkartikey" url='instagram.com' style={{ height: 45, width: 45 }} bgColor="#000640" fgColor='white' />
           </div>
           <p className=' text-xl p-4        
           md:text-3xl md:text-left
