@@ -43,7 +43,7 @@ const Header = () => {
             }
             {
                 clicked &&
-                <div id="links" className='absolute top-[70px] bg-[#000625] w-[100%] h-[95vh] text-white text-[11px] flex justify-center items-center flex-col
+                <div id="links" className='absolute top-[70px] bg-[#000625] w-[100%] h-[95vh] text-white text-[11px] flex  pt-24 items-center flex-col
                 md:text-[18px]
                 sm:text-[15px]
                 '>

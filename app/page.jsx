@@ -11,12 +11,12 @@ const page = () => {
         md:flex-row-reverse md:w-[90%]
         sm:w-[95%] sm:flex-row-reverse
       '>
-        
+
         <div className='w-[350px] h-[300px] flex justify-around items-center flex-col
         md:w-[500px] md:justify-center md:h-[90%]
         sm:h-[90%] sm:justify-center
         '>
-          <Image src={profile} alt='Kartikey Mishra' className='m-5 w-[200px] rounded-full
+          <Image src={profile} alt='Kartikey Mishra' className='m-5 w-[200px] rounded-full border-[5px] border-[#000680] duration-200 hover:border-[#000650]
           md:w-[250px]
           sm:w-[230px]
         '/>
