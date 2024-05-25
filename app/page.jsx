@@ -52,7 +52,7 @@ const page = () => {
       '>
         <div className='w-full min-h-screen flex justify-center items-center flex-col
           md:flex-row-reverse'>
-          <Image src={cover} alt='my image' className='m-6 w-[70%] rounded-sm
+          <Image src={cover} alt='my image' className='m-6 w-[80%] rounded-sm
             md:w-[40%]
             sm:w-[60%]'/>
           <div className='w-[90%] min-h-[80vh] flex justify-around items-center flex-col
