@@ -43,11 +43,11 @@ const Header = () => {
             }
             {
                 clicked &&
-                <div id="links" className='absolute top-[70px] bg-[#000625] w-[100%] h-screen text-white text-[11px] flex justify-center items-center flex-col
+                <div id="links" className='absolute top-[70px] bg-[#000625] w-[100%] h-[95vh] text-white text-[11px] flex justify-center items-center flex-col
                 md:text-[18px]
                 sm:text-[15px]
                 '>
-                    <div className='h-[65%] flex justify-between items-center flex-col'>
+                    <div className='h-[70%] flex justify-between items-center flex-col'>
                         <Link onClick={() => setClicked(false)} className='w-[110px]  9i h-[110px] flex justify-center items-center flex-col p-2 rounded-[30px]
                 md:w-[100px] md:h-[70px] ' href={'/'}>
                             <Image alt='header' src={home} className='w-[55px]
