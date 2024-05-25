@@ -85,7 +85,7 @@ const Header = () => {
                     md:text-[14px] md:hover:text-[17px]'>Insights</h6>
                         </Link>
                         <Link onClick={() => setClicked(false)} className='w-[110px]  9i h-[110px] flex justify-center items-center flex-col p-2 rounded-[30px]
-                md:w-[100px] md:h-[70px] ' href={'#contact'}>
+                md:w-[100px] md:h-[70px] ' href={'/contact'}>
                             <Image alt='header' src={contact} className='w-[55px]
                     md:w-[45px]
                     sm:w-[35px]
@@ -123,7 +123,7 @@ const Header = () => {
                                 Insights</h6>
                         </Link>
                         <Link onClick={() => setClicked(false)} className='w-[110px]  9i h-[110px] flex justify-center items-center flex-col p-2 rounded-[30px] '
-                            href={'#contact'}>
+                            href={'/contact'}>
                             <Image alt='header' src={contact} className='w-[35px]' />
                             <h6 className='text-[14px] hover:text-blue-300 hover:text-[17px] duration-100'>
                                 Contact</h6>

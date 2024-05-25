@@ -3,7 +3,6 @@ import Image from 'next/image'
 import profile from '@/public/kartik.png'
 import Recent from './_components/Recent'
 import nextjs from '@/public/skillsimages/nextjs.png'
-import Contact from '@/app/_components/Contact'
 import { SocialIcon } from 'react-social-icons'
 const page = () => {
   return (
@@ -73,7 +72,6 @@ const page = () => {
           />
         </div>
       </div>
-      <Contact />
     </div>
   )
 }
