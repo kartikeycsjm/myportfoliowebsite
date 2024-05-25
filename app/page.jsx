@@ -80,7 +80,7 @@ const page = () => {
               image={diary}
               text={`Diary Application`}
               ltext={`Live link`}
-              llink={``}
+              llink={`https://diary1.vercel.app`}
               all={`/portfolio`}
             />
           </div>

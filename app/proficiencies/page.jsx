@@ -20,9 +20,12 @@ const page = () => {
         <div className='w-[90%] text-white min-h-screen flex justify-center items-center flex-col
         md:w-[90%]
         '>
-            <div className='h-[60px] w-[250px] flex justify-around items-center'>
-                <Image src={skill} alt='skill' className='w-[40px]' />
-                <h3 className='text-[30px]'>Proficiencies</h3>
+            <div className='h-[60px] w-[180px] flex justify-around items-center
+                md:w-[250px]'>
+                <Image src={skill} alt='skill' className='w-[35px]
+                    md:w-[40px]' />
+                <h3 className='text-[20px]
+                    md:text-[30px]'>Proficiencies</h3>
             </div>
             <div className='w-full m-5 min-h-[70vh] border-[1px] border-gray-800 rounded-lg flex justify-around items-center flex-col
                 md:flex-row md:justify-between'>
